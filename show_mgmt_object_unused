@@ -1,0 +1,1 @@
+mgmt_cli show unused-objects offset 0 limit 50 details-level "standard" --format json

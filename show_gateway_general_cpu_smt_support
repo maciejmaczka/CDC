@@ -1,0 +1,1 @@
+grep -E "cpu cores|siblings|physical id" /proc/cpuinfo | xargs -n 11 echo |sort |uniq

@@ -1,0 +1,5 @@
+fw ctl get int fwha_mac_magic
+fw ctl get int fwha_mac_forward_magic
+
+cphaprob mmagic
+

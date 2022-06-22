@@ -1,0 +1,9 @@
+echo " "
+echo " "
+echo "Warning! This will RESYNCHRONIZE clusterXL !!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+fw ctl setsync off
+fw ctl setsync start

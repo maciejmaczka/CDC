@@ -1,0 +1,26 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+fw ctl debug -m fw + conn drop cptls
+fw ctl kdebug -T -f > /var/log/cdc/ssl_inspect.last &
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_ssl_inspect_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " " 
+echo " TIPS: "
+echo " | grep CN   - to check certificate CN processed by SSL Inspect"
+echo " | grep domain - to check search for specific domain " 
+echo " Check log number. Use grep -A 10 -B 10 "
+echo " " 
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

@@ -1,0 +1,24 @@
+fw debug cpca on TDERROR_ALL_ALL=5
+tail -f $FWDIR/log/cpca.elg  > /var/log/cdc/cpca.last &
+
+clear 
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_internalCA_show | grep <options>"
+echo " "
+echo " debug_mgmt_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

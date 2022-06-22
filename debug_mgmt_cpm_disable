@@ -1,0 +1,33 @@
+$FWDIR/scripts/cpm_debug.sh -t HA -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Diff -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Notifications -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Default_Values -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Validations -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_Basic -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_All -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_Objects -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_Rulebase -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_Sdb -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Locks_IPS -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Sessions -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Multi_Domain -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Assign_Global_Policy -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Topology -s INFO
+$FWDIR/scripts/cpm_debug.sh -t BackupRestore -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Scripts -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Login -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Revisions -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Search -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Solr -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Statuses -s INFO
+$FWDIR/scripts/cpm_debug.sh -t AppiUpdate -s INFO
+$FWDIR/scripts/cpm_debug.sh -t rulebase -s INFO
+$FWDIR/scripts/cpm_debug.sh -t crud -s INFO
+$FWDIR/scripts/cpm_debug.sh -t webservices -s INFO
+$FWDIR/scripts/cpm_debug.sh -t publish -s INFO
+$FWDIR/scripts/cpm_debug.sh -t IPS_Update -s INFO
+$FWDIR/scripts/cpm_debug.sh -t VSX -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Permissions -s INFO
+$FWDIR/scripts/cpm_debug.sh -t Protocol_Applications -s INFO
+
+$FWDIR/scripts/cpm_debug.sh -r

@@ -1,0 +1,11 @@
+ nslookup cws.checkpoint.com
+
+curl_cli -v -1 --cacert $CPDIR/conf/ca-bundle.crt https://updates.checkpoint.com
+
+curl_cli -v -1 --cacert $CPDIR/conf/ca-bundle.crt https://dl3.checkpoint.com
+
+curl_cli -v http://cws.checkpoint.com
+
+
+echo  " "
+echo " "

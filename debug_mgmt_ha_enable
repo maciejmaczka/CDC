@@ -1,0 +1,23 @@
+fw debug fwm on TDERROR_ALL_MGMTHA=5
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_ha_show | grep <options>"
+echo " "
+echo " debug_mgmt_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " | grep -i sync  to search for synchronization"
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

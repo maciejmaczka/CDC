@@ -1,0 +1,7 @@
+echo "Run this script on MGMT server ! "
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+$FWDIR/scripts/get_ips_statistics.sh 

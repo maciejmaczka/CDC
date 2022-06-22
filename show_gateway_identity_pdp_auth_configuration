@@ -1,0 +1,26 @@
+echo "allow_empty_result: "
+pdp auth allow_empty_result status
+
+echo "count_in_non_ldap_group: "
+pdp auth count_in_non_ldap_group  status
+
+echo "fetch_by_sid: "
+pdp auth fetch_by_sid  status
+
+echo "force_domain: "
+pdp auth force_domain stat
+
+echo "kerberos_any_domain: "
+pdp auth kerberos_any_domain  status
+
+echo "kerberos_encryption: "
+pdp auth kerberos_encryption  get
+
+echo "reauth_agents_after_policy: "
+pdp auth reauth_agents_after_policy  status
+
+echo "recovery_interval: " 
+pdp auth  recovery_interval show
+
+echo "username_password: " 
+pdp auth username_password stat

@@ -1,0 +1,1 @@
+cpstat os -f ifconfig

@@ -1,0 +1,2 @@
+fwm ver
+cpinfo -y all 2>/dev/null | grep JUMBO | tail -n1

@@ -1,0 +1,9 @@
+echo " "
+echo " "
+echo "Warning! This will fetch POLICY FROM MGMT"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+MGMT=$(cat $FWDIR/conf/masters | awk 'NR>1 && NR<3 { print $0 }')
+fw fetch $MGMT

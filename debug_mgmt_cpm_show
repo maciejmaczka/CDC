@@ -1,0 +1,3 @@
+$FWDIR/scripts/cpm_debug.sh -r 
+
+tail -f $FWDIR/log/cpm.elg 

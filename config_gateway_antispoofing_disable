@@ -1,0 +1,12 @@
+echo " "
+echo " "
+echo "Warning! This will DISABLE Antispoofing. SECUREXL must be disabled first!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+sim feature anti_spoofing off
+fw ctl set int fw_antispoofing_enabled 0
+fw ctl get int fw_antispoofing_enabled
+
+

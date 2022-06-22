@@ -1,0 +1,3 @@
+contract_util print hfa
+contract_util print maj_upgrade
+contract_util print min_upgrade

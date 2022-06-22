@@ -1,0 +1,4 @@
+echo " "
+echo "Usage: show_gateway_general_route_query_destination IP_ADDRESS"
+echo " "
+clish -c "show route destination $1"

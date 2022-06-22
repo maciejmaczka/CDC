@@ -1,0 +1,1 @@
+fw tab -f -t vpn_routing -u 2>&1 | grep Peer: | cut -d ';' -f8 | cut -c 8- | sort -ng | uniq | xargs -I % sh -c 'echo; tput sgr0; echo -n VPN Gateway: ; tput setaf 1; echo -e %; tput sgr0; echo -e  Routing: ; tput setaf 2; fw tab -f -t vpn_routing -u 2>&1 | grep % | grep -o 'From.*Peer' | cut -c 6- | rev | cut -c 7- | rev' | sed 's/; To:/ -/g'; tput sgr0

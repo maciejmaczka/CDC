@@ -1,0 +1,10 @@
+echo " "
+echo " "
+echo "Warning! This will stop Mobile VPN process"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+
+cvpnstop

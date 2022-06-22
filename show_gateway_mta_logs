@@ -1,0 +1,2 @@
+tail -f $FWDIR/log/emaild.mta.elg  -f  /var/log/maillog  | grep -v "emaild.mta.elg\|maillog"
+

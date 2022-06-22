@@ -1,0 +1,24 @@
+tecli debug rotate
+tecli debug set TE all
+tecli debug on
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_threatemulat_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

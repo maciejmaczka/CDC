@@ -1,0 +1,10 @@
+echo "Usage: show_gateway_identity_user username"
+
+echo " "
+echo "PDP"
+
+pdp m u $1
+
+echo " "
+echo "PEP"
+pep show user query usr $1

@@ -1,0 +1,1 @@
+du -h --max-depth=0 $FWDIR/conf/db_versions

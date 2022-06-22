@@ -1,0 +1,32 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+fw ctl debug -m fw + cmi mail aspii tcpstr advp
+fw ctl debug -m cmi_loader + info module
+fw ctl debug -m UP all
+fw ctl debug -m FILEAPP all
+fw ctl debug -m dlpda all
+fw ctl set int cmi_dump_buffer 1
+
+
+fw ctl kdebug -T -f > /var/log/cdc/fileapp.txt &
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_fileapp_show  | grep <options>"
+echo " "
+echo " "
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+
+

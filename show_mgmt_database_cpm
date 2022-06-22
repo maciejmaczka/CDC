@@ -1,0 +1,11 @@
+echo " "
+echo " "
+echo "psql_cli access to CPM database"
+echo "\q to extit"
+echo "\d to view schema"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+psql_client cpm postgres
+

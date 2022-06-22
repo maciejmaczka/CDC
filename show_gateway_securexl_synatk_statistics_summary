@@ -1,0 +1,2 @@
+fwaccel synatk monitor -p -s
+fwaccel synatk monitor -p -v

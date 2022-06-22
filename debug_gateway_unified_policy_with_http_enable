@@ -1,0 +1,37 @@
+fw ctl debug 0
+fw ctl debug -m UP + info module rulebase connection manager clob log sec_rb vpn address mab
+fw ctl debug -m UPIS + info clob
+fw ctl debug + drop conn
+fw ctl debug -buf 32000
+
+
+fw ctl debug -m WS + info pkt_dump module connection session policy spii address
+
+
+fw ctl kdebug -p time -f > /var/log/cdc/unified_policy.last  & 
+
+
+
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_unified_policy_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

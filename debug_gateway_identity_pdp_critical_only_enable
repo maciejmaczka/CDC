@@ -1,0 +1,2 @@
+pdp debug set all critical
+pdp debug on 

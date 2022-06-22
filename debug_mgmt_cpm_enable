@@ -1,0 +1,22 @@
+$FWDIR/scripts/cpm_debug.sh -t $1 -s DEBUG
+
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_cpm_enable_info_level <topic_name>  - start debug  "
+echo " debug_mgmt_cpm_show 	 - show debug"
+echo " debug_mgmt_cpm_disable    - disable debug" 
+echo " debug_mgmt_cpm_enabled_topics - check enabled topics"
+echo " "
+echo " TIPS: "
+echo " To check debug topics: show_mgmt_cpm_debug_topics"
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

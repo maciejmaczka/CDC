@@ -1,0 +1,8 @@
+echo " "
+echo " "
+echo "Warning! This will DISABLE Threat Prevention!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+fw amw unload; fw stat -b AMW

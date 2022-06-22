@@ -1,0 +1,1 @@
+clish -c "show arp dynamic all"

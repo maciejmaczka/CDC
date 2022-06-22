@@ -1,0 +1,6 @@
+echo "Warning this will enable SecureXL acceleration!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+fwaccel on

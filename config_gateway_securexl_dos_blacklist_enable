@@ -1,0 +1,9 @@
+
+echo " "
+echo " "
+echo "Warning! This will enable dos blacklisting"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+fwaccel dos config set  --enable-blacklists
+

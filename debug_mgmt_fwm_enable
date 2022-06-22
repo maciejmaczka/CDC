@@ -1,0 +1,24 @@
+fw debug fwm on TDERROR_DBG_OPT=time,host,prog,topic,pid,tid
+fw debug fwm on TDERROR_ALL_ALL=5
+fw debug fwm on OPSEC_DEBUG_LEVEL=3
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_fwm_show  | grep <options>"
+echo " "
+echo " debug_mgmt_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " | grep -v STATUS  to hide STATUS lines "
+echo " Search for Password, Administrator, client or your user name"
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "

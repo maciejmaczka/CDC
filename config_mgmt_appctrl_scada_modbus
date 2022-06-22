@@ -1,0 +1,1 @@
+mgmt_cli add scada-application name modbus_monitor_all scada-properties.0.key protocol scada-properties.0.value Modbus

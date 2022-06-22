@@ -1,0 +1,7 @@
+echo " "
+echo "Usage: show_gateway_threatemulat_inspect_file  file"
+echo " "
+
+te_add_file -f=$1
+
+

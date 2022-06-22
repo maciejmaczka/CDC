@@ -1,0 +1,1 @@
+cat $FWDIR/teCurrentPack/passphrases.conf

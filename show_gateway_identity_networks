@@ -1,0 +1,6 @@
+echo "Known network database"
+pdp network info
+
+echo "Registered networks"
+pdp network regi
+

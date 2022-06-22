@@ -1,0 +1,24 @@
+$FWDIR/scripts/cpm_debug.sh -t crud publish webservices -s DEBUG 
+
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_publish_show | grep <options>"
+echo " "
+echo " debug_mgmt_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " | grep Object    to search for object manipulation"
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

@@ -1,0 +1,3 @@
+cat /proc/sys/net/ipv4/neigh/default/gc_thresh1
+cat /proc/sys/net/ipv4/neigh/default/gc_thresh2
+cat /proc/sys/net/ipv4/neigh/default/gc_thresh3

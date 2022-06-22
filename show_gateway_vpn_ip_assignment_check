@@ -1,0 +1,2 @@
+vpn ipafile_check   $FWDIR/conf/ipassignment.conf warn
+vpn ipafile_check   $FWDIR/conf/ipassignment.conf err

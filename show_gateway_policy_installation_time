@@ -1,0 +1,3 @@
+cpstat fw | grep "Install time" | awk '{print $4" "$5" "$7" - "$6}'
+
+

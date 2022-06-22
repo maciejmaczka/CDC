@@ -1,0 +1,7 @@
+echo " "
+echo " "
+echo "Warning! This will ENABLE clustering on this machine!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+clusterXL_admin up -p

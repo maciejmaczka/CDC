@@ -1,0 +1,7 @@
+echo " "
+echo " "
+echo "Warning! This will DISABLE Clustering on this gateway!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+clusterXL_admin down

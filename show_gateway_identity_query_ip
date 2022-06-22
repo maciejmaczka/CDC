@@ -1,0 +1,6 @@
+echo "Usage: show_gateway_query_ip client_ip"
+
+echo " "
+echo "PDP"
+
+pdp m ip $1

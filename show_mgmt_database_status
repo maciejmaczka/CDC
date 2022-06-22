@@ -1,0 +1,1 @@
+su -c "pg_ctl status" -l cp_postgres   --preserve-environment    | grep pg_ctl

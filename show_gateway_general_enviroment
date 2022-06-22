@@ -1,0 +1,3 @@
+cpstat -f sensors os
+
+cpstat -f power_supply os 

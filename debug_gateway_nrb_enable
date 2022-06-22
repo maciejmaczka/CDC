@@ -1,0 +1,26 @@
+fw ctl debug -buf 32000
+fw ctl debug -m NRB + all
+fw ctl kdebug -f > /var/log/cdc/nrb.last & 
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_nrb_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " | grep appi_rad_uf_normalize_url       to see only URLS"
+echo " | grep appi_rad_uf_cmi_handler_fill_application    to see categorization process"
+echo " | grep appi_clobs_observer_user_agent_server_type_log   to see user agent"
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

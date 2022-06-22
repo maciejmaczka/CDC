@@ -1,0 +1,9 @@
+echo " "
+echo " "
+echo "Warning! This will CLEAR Threat Emulation CACHE!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+tecli cache clean

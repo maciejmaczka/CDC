@@ -1,0 +1,7 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+fw ctl debug -m fw + conn vm nat xlate xltrc drop
+fw ctl debug -m fg all
+
+fw ctl kdebug -T -f > /var/log/cdc/fgate.txt &
+

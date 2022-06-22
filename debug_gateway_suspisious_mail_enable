@@ -1,0 +1,27 @@
+fw ctl debug -buf 32000
+fw debug in.msd on TDERROR_ALL_ALL=5
+fw ctl debug + mail
+fw ctl kdebug -f > /var/log/cdc/susmail.last & 
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_suspisious_mail_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable     to disable debug ! ! !"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

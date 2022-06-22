@@ -1,0 +1,2 @@
+cpstat threat-emulation; cpstat threat-emulation -f update_status; cpstat threat-emulation -f contract
+

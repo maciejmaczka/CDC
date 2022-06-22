@@ -1,0 +1,10 @@
+echo " "
+echo "WARNING: This will fetch FGate policy from MGMT "
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+MGMT=$(cat $FWDIR/conf/masters | awk 'NR>1 && NR<3 { print $0 }')
+
+fgate fetch $MGMT

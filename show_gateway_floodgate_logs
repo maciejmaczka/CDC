@@ -1,0 +1,1 @@
+tail -f $FGDIR/log/fgd50.elg

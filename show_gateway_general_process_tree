@@ -1,0 +1,1 @@
+ps axwf -o pid,cpuid,pcpu,pmem,time,comm

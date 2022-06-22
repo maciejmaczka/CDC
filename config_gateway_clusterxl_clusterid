@@ -1,0 +1,10 @@
+echo " "
+echo " "
+echo "Parameter needed: ClusterID"
+echo " "
+echo "Warning! This will CHANGE Cluster ID. Please check sk25977!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+cphaconf cluster_id set $1

@@ -1,0 +1,13 @@
+echo " "
+echo " "
+echo "Warning! This will RECREATE Monitoring DB. DATA WILL BE LOST!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+
+$RTDIR/scripts/stopSmartView
+psql_client -U postgres -d cpm -v ON_ERROR_STOP=1 -c "drop database monitoring"
+$RTDIR/scripts/startSmartView
+

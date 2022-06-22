@@ -1,0 +1,8 @@
+echo " "
+echo " "
+echo "Warning! This will STOP REST API Server!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+api stop 

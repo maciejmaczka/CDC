@@ -1,0 +1,11 @@
+echo " "
+echo " USAGE: config_gateway_general_arp_clear <interface_ethx> "
+echo " "
+echo " "
+echo "Warning! This will CLEAR ARP TABLE On interface!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+
+read
+
+ip neigh flush dev $1

@@ -1,0 +1,11 @@
+echo " "
+echo " "
+echo "Warning! This will DISABLE CoreXL dynamic dispacher!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+
+
+fw ctl multik dynamic_dispatching off

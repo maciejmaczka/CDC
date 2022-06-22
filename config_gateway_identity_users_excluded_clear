@@ -1,0 +1,6 @@
+echo "Warning this will CLEAR excluded users list!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+adlog a control srv_account clear

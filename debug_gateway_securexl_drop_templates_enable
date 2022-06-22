@@ -1,0 +1,31 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+
+sim dbg -m dtmpl all
+sim dbg + drop
+fwaccel dbg + template drop
+
+
+fw ctl kdebug -T -f > /var/log/cdc/securexl.last &
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_securexl_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

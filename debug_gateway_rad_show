@@ -1,0 +1,1 @@
+tail -f /var/log/cdc/rad_debug.txt

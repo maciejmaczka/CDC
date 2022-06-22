@@ -1,0 +1,3 @@
+dmesg | grep ": eth" | grep -v TSO
+grep ": eth" /var/log/messages* | grep -v TSO
+

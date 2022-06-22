@@ -1,0 +1,4 @@
+adlog a control srv_account show
+
+echo "To clear list run:  config_gateway_identity_users_excluded_clear"
+echo " "

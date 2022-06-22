@@ -1,0 +1,24 @@
+fw ctl debug 0
+fw debug fwm off
+
+fw debug fwm off TDERROR_ALL_ALL=0
+fw debug fwm off OPSEC_DEBUG_LEVEL=0
+
+fw debug cpca off TDERROR_ALL_ALL=0
+
+fw debug fwd off TDERROR_ALL_ALL=0
+
+cpd_admin debug off TDERROR_ALL_ALL=0
+
+
+pkill -xf 'fw ctl kdebug -f'
+
+
+
+adlog a debug off
+pdp debug off
+pep debug off
+cvpnd_admin  debug off
+rtm debug off 
+
+

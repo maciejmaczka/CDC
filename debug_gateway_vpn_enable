@@ -1,0 +1,3 @@
+vpn debug on TDERROR_ALL_ALL=5
+vpn debug trunc
+

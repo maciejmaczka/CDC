@@ -1,0 +1,6 @@
+echo "Usage: show_gateway_query_role ia_role"
+
+
+echo " "
+echo "PEP"
+pep show  user query role  $1

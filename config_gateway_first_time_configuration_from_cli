@@ -1,0 +1,11 @@
+echo " "
+echo " "
+echo "Please edit template located in support_files"
+echo " "
+echo " "
+echo "Usage: config_gateway_first_time_configuration_from_cli  support_files/templete_xxxxxxxx_install "
+echo " "
+echo " "
+
+config_system --config-file $1
+

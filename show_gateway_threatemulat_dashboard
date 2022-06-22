@@ -1,0 +1,5 @@
+    watch -d -n 1 "echo \_______________________;echo TE Engine Status:;echo \_______________________;tecli control status;tecli show statistics | grep -E '(engine version is)';echo;echo \_______________________;echo VM Cloud Images;echo \_______________________;tecli ca du al | grep -E '(Image UID)';echo;echo \_______________________;echo Live Cloud Queue:;echo \_______________________;tecli show cloud queue;echo;echo \_______________________;echo History Malicious:;echo \_______________________;echo;tecli ca du al | grep -E '(-----|sha1|malicious)';echo;echo \_______________________;echo TE Cloud Quota Stats:;echo \_______________________;tecli show statistics | grep -E '(day)';echo .......................................................................................................;tecli show statistics | grep -E '(Scanned files:|static analysis|local cache|cloud cache|cloud process time)';echo .......................................................................................................;echo;tecli show cloud quota| grep -E '(Quota identifier|Quota subscription:|Usage for gw:|Remain:|Exceeded:)'"
+
+
+
+#script by Eduardo Pereira 

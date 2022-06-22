@@ -1,0 +1,3 @@
+echo "Usage: debug_traffic_drop | grep ip_address"
+
+fw ctl zdebug + drop | grep cpu 

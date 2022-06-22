@@ -1,0 +1,30 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+
+fw ctl debug -m fw + multik
+fw ctl debug -m VPN + multik
+fw ctl debug -m multik all
+
+fw ctl kdebug -T -f > /var/log/cdc/corexl.last &
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_corexl_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

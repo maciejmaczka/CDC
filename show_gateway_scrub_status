@@ -1,0 +1,1 @@
+  cpstat scrub; cpstat scrub -f subscription_status 

@@ -1,0 +1,27 @@
+fw ctl debug -buf 32000
+fw ctl debug -m VPN all;
+
+fw ctl kdebug -f > /var/log/cdc/vpnkernel.last & 
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_vpn_kernel_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

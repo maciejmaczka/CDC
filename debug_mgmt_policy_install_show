@@ -1,0 +1,2 @@
+tail -f $FWDIR/log/install_policy.elg
+

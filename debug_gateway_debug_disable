@@ -1,0 +1,43 @@
+fw ctl debug 0
+fw ctl debug -x 
+fw ctl debug -buf 0
+
+vpn debug off
+vpn debug ikeoff
+
+pdp d unset all all
+pdp d off
+
+fwaccel dbg resetall 
+
+fw debug fwd off TDERROR_ALL_ALL=0
+
+rad_admin rad debug on all
+
+
+pkill -xf 'fw ctl kdebug -f'
+
+adlog a debug off
+pdp debug off
+pep debug off
+cvpnd_admin  debug off
+rtm debug off 
+
+scrub debug reset
+scrub debug off
+
+
+fw debug in.emaild.mta off
+fw debug scrub_cp_file_convertd  off
+usrchk debug off 
+
+
+unset TDERROR_ALL_fwapp
+
+unset TDERROR_ALL_upapp
+
+
+sim dbg resetall 
+
+
+tecli debug off

@@ -1,0 +1,2 @@
+cvpnd_admin debug trace on
+cvpnd_admin debug set TDERROR_ALL_ALL=5

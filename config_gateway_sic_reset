@@ -1,0 +1,13 @@
+echo " "
+echo " "
+echo "Warning! This will RESET SIC on this Gateway !!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+echo " "
+echo "Usage config_gateway_sic_reset NEW_ACTIVATION_KEY "
+echo " "
+
+read
+
+cp_conf sic init $1 norestart
+cpwd_admin stop -name CPD -path "$CPDIR/bin/cpd_admin" -command "cpd_admin stop"
+cpwd_admin start -name CPD -path "$CPDIR/bin/cpd" -command "cpd"

@@ -1,0 +1,2 @@
+cpstat -f multi_cpu os
+

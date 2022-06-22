@@ -1,0 +1,2 @@
+pep debug set all critical
+pep debug on

@@ -1,0 +1,13 @@
+
+echo " "
+echo " "
+echo "Parameters needed:  config_gateway_clusterxl_macmagic fwha_mac_magic fwha_mac_forward_magic"
+echo " "
+echo "Warning! This will CHANGE Cluster Magic MAC. Please check sk25977!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+
+fw ctl set int fwha_mac_magic $1
+fw ctl set int fwha_mac_forward_magic $2

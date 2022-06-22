@@ -1,0 +1,1 @@
+ifconfig -a | grep encap | awk '{print $1}' | grep -v lo | grep -v bond | grep -v ":" | grep -v ^lo | xargs -I % sh -c 'ethtool %; ethtool -i %' | grep '^driver\|Speed\|Duplex\|Setting' | sed "s/^/ /g" | tr -d "\t" | tr -d "\n" | sed "s/Settings for/\nSettings for/g" | awk '{print $5 " "$7 "\t " $9 "\t" $3}' | grep -v "Unknown"

@@ -1,0 +1,7 @@
+echo " "
+echo "Usage: show_mgmt_floodgate_state  GW_IP_ADDRESS"
+echo " "
+
+fgate stat $1
+
+

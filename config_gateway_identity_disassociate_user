@@ -1,0 +1,8 @@
+echo "Usage ./config_gateway_identity_disassociate_user ip  user "
+echo " "
+echo "Warning! This will disassociate user $1  $2"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+pdp ad disassociate ip $1 u $2

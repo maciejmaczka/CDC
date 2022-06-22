@@ -1,0 +1,11 @@
+echo "Usage: show_gateway_identity_machine  computer_name"
+echo ""
+
+echo "PDP"
+
+pdp m machine $1
+
+echo " "
+echo "PEP"
+
+pep show user quer mchn $1

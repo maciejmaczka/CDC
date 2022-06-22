@@ -1,0 +1,47 @@
+echo " "
+echo " "
+echo "Warning! This will try to install policy!!!"
+echo "Do you wan't to continue? (Hit any key to continue. CTRL+C to exit)"
+
+read
+
+export TDERROR_ALL_ALL=0
+export TDERROR_ALL_fwapp=5
+export TDERROR_ALL_upapp=5
+export TDERROR_ALL_db=5
+export TDERROR_ALL_mgr=5
+export TDERROR_ALL_sna=5
+export TDERROR_ALL_load=5
+
+
+fw ctl debug 0
+fw ctl debug -m UP + info rulebase policy module manager
+fw ctl debug -m UPIS + all
+fw ctl debug + filter cmi
+fw ctl debug -buf 32000
+
+
+fw -d fetchlocal -d $FWDIR/state/__tmp/FW1/ >&  /var/log/cdc/policy_install.last
+fw ctl kdebug -f >>  /var/log/cdc/policy_install.last
+
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo "debug_gateway_policy_installation_failure_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " sk120964"
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "

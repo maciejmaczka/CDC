@@ -1,0 +1,2 @@
+echo "USAGE show_gateway_general_hdd_space_per_directory <directory>"
+du -h --max-depth=1 $1 | sort -n -r

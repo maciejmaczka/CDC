@@ -1,0 +1,1 @@
+clish -c "show asset system" | grep "Serial Number:" | head -1 | cut -d ":" -f2 | sed 's/ //g'

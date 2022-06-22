@@ -1,0 +1,1 @@
+grep TOPIC-DEBUG $MDS_FWDIR/conf/tdlog.cpm

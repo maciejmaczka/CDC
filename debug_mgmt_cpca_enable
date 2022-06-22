@@ -1,0 +1,22 @@
+fw debug cpca on TDERROR_ALL_ALL=5
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_mgmt_cpca_show | grep <options>"
+echo " "
+echo " debug_mgmt_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+

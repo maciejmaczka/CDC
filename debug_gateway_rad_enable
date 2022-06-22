@@ -1,0 +1,26 @@
+fw ctl debug 0
+fw ctl debug -buf 32000
+fw ctl debug -m RAD_KERNEL all
+clear
+fw ctl kdebug -T -f > /var/log/cdc/rad_debug.txt &
+
+
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_rad_show  | grep <options>"
+echo " "
+echo " "
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+
+

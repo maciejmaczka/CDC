@@ -1,0 +1,26 @@
+fw ctl debug -buf 32000
+fw ctl debug -m cluster + stat pnote conf ccp
+fw ctl kdebug -f  > /var/log/cdc/clusterxl.last &
+
+
+clear
+
+echo " "
+echo " "
+echo " ---------------------------------------------------------------------------"
+echo " "
+echo " Usage:"
+echo " debug_gateway_clusterxl_show | grep <options>"
+echo " "
+echo " debug_gateway_debug_disable to turn off debug!"
+echo " "
+echo " TIPS: "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " --------------------------------------------------------------------------- "
+echo " "
+echo " "
+
+

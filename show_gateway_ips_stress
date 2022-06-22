@@ -1,0 +1,4 @@
+fw ctl get int ids_assume_stress
+fw ctl get int ids_tolerance_no_stress
+fw ctl get int ids_tolerance_stress
+
