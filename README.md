@@ -227,9 +227,8 @@ There should be a message, what this command will do. You need to press Enter to
 
 In expert mode.
 
-Go to directory where do you want to install. Run:
-
-Copy files go GW/MGMT
+Go to directory where do you want to install. 
+Extract archive
 
 cd cdc
 chmod 755 *
@@ -246,15 +245,5 @@ Everything Smiley Happy
  
 
 You can share, edit, add / remove scirpts. Please, be so kind and share changes Smiley Happy. Internet access is not required. If you don't want to share changes just edit your scripts.
-
- 
-
-If you need a new command or feel need to change something, just send a script with correct file name to me maciej.maczka@gmail.com or leave comment.
-
- 
-
-Suggestion, comments, ideas are welcome.
-
-Please also let me know if you see a need to maintain this tool.
 
  
